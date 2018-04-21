@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <title>Chats</title>
+</head>
+<body>
+  <header>
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fas fa-plane"></i>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="header__column">
+        <span class="header__time">18:36</span>
+      </div>
+      <div class="header__column">
+        <i class="far fa-moon"></i>
+        <i class="fab fa-bluetooth-b"></i>
+        <span class="header__battery">66%</span><i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__cloumn">
+        <span class="header__text">Edit</span>
+      </div>
+      <div class="header__cloumn">
+        <span class="header__text">Chats<i class="fas fa-sort-down"></i></span>
+      </div>
+    </div>
+  </header>
+  <main class="chats">
+    <div class="search-bar">
+      <i class="fa fa-searh"></i>
+      <input type="text" placeholder="Find friends, chats, Plus Friends">
+    </div>
+    <ul class="chats__list">
+      <li class="chats__chat">
+        <div class="chat__contents">
+          <img src="images/profile_jjong.png">
+          <div class="chat__preview">
+            <h3 class="chat__user">JONGHYUN</h3>
+            <span class="chat__last-message">Hello! This is a test message</span>
+          </div>
+          <span class="chat__date-time">
+            15:55
+          </span>
+        </div>
+      </li>
+      <li class="chats__chat">
+        <div class="chat__contents">
+          <img src="images/profile_jjong.png">
+          <div class="chat__preview">
+            <h3 class="chat__user">KakaoTalk</h3>
+            <span class="chat__last-message">You logged into KakaoTalk PC from the PC</span>
+          </div>
+          <span class="chat__date-time">
+            July 29
+          </span>
+        </div>
+      </li>
+    </ul>
+    <div class="chat__btn">
+      <i class="fa fa-comment"></i>
+    </div>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar__tab">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar__tab tab-bar__tab--selected">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
+</body>
+</html>
