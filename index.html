@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="top-header">
     <div class="header__top">
       <div class="header__column">
         <i class="fas fa-plane"></i>
@@ -20,24 +21,25 @@
       <div class="header__column">
         <i class="far fa-moon"></i>
         <i class="fab fa-bluetooth-b"></i>
-        <span class="header__battery">66%</span><i class="fas fa-battery-full"></i>
+        <span class="header__battery">66%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <div class="header__bottom">
-      <div class="header__cloumn">
+      <div class="header__column">
         <span class="header__text">Manage</span>
       </div>
-      <div class="header__cloumn">
-        <span class="header__text">Friends<span class="header__number">1</span></span>
+      <div class="header__column">
+        <span class="header__text">Friends <span class="header__number">1</span></span>
       </div>
-      <div class="header__cloumn">
-        <i class="fas fa-cog"></i>
+      <div class="header__column">
+        <i class="fas fa-cog fa"></i>
       </div>
     </div>
   </header>
   <main class="friends">
     <div class="search-bar">
-      <i class="fa fa-searh"></i>
+      <i class="fa fa-search"></i>
       <input type="text" placeholder="Find friends, chats, Plus Friends">
     </div>
     <section class="friends__section">
@@ -46,12 +48,12 @@
       </header>
       <div class="friends__section-rows">
         <div class="friends__section-row">
-          <a href="profile.html">
-            <img src="images/profile_jjong.png" alt=""><span class="friends__section-name">JONGHYUN</span>
-          </a>
+            <img src="images/img_2.jpg">
+            <a href="profile.html" class="friends__section-name">JONGHYUN</a>
         </div>
         <div class="friends__section-row">
-          <img src="images/profile_jjong.png" alt=""><span class="friends__section-name">Friends' Names Display</span>
+          <img src="images/profile_jjong.png">
+          <span class="friends__section-name">Friends' Names Display</span>
         </div>
       </div>
     </section>
@@ -60,9 +62,9 @@
         <h6 class="friends__section-title">Friends</h6>
       </header>
       <div class="friends__section-rows">
-        <div class="friends__section-row">
+        <div class="friends__section-row with-tagline">
           <div class="friends_section-column">
-            <img src="images/profile_jjong.png" alt=""><span class="friends__section-name">JIEUN</span>
+            <img src="images/img_1.jpg" alt=""><span class="friends__section-name">Shinin'</span>
           </div>
           <span class="friends__section-tagline">
             Life is short. So live your life.

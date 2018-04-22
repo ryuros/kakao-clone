@@ -1,0 +1,33 @@
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cccccc;
+  opacity: 1; /* Firefox */
+}
+
+.search-bar {
+  padding: 10px 20px;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 5px 7px;
+  box-sizing: border-box;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #f1f2f3;
+  font-size: 13px;
+  text-align: center;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.search-bar i {
+  position: absolute;
+  color: #cccccc;
+  top: 17px;
+  left: 80px;
+  font-size: 13px;
+}
