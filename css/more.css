@@ -1,0 +1,131 @@
+.more {
+  background-color: #f2f2f2;
+}
+
+.more .more__header {
+  background-color: #ffffff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more__header i {
+  color: #523737;
+  margin-right: 10px;
+  font-size: 26px;
+}
+
+.more__header .more__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.more__header-column img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.more__header-info .more__header-title {
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.more__header-info .more__header-subtitle {
+  font-size: 12px;
+  color: #b4b4b4;
+}
+
+.more .more__options,
+.more .more__plus-friends {
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.more .more__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more__options .more__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 15px 20px;
+}
+
+.more__option i {
+  color: #523737;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.more__option span {
+  font-size: 12px;
+}
+
+.more .more__plus-friends {
+  padding: 20px 20px 0 20px;
+}
+
+.more__plus-friends .plus-friends__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.plus-friends__header .plus-friends__learn-more {
+  font-size: 12px;
+  color: #b4b4b4;
+}
+
+.plus-friends__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.plus-friends__items .plus-friends__item {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.plus-friends__item i {
+  margin-right: 15px;
+  width: 8%;
+  text-align: center;
+  color: #523737;
+}
+
+.plus-friends__item .plus-friends__item-title {
+  font-size: 13px;
+}
+
+.more__links {
+  display: flex;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.more__links .more__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.more__links .more__option img {
+  width: 45px;
+  margin-bottom: 10px;
+}
+
+.more__links .more__option .more__options-title {
+  font-size: 11px;
+  line-height: 12px;
+  text-align: center;
+}
