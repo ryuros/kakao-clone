@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="top-header">
+  <header class="top-header top-header--transparent">
     <div class="header__top">
       <div class="header__column">
         <i class="fas fa-plane"></i>
@@ -21,43 +21,49 @@
       <div class="header__column">
         <i class="far fa-moon"></i>
         <i class="fab fa-bluetooth-b"></i>
-        <span class="header__battery">66%</span><i class="fas fa-battery-full"></i>
+        <span class="header__battery">66%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <div class="header__bottom">
-      <div class="header__cloumn">
+      <div class="header__column">
         <a href="index.html">
         <i class="fas fa-times fa-lg"></i>
         </a>
       </div>
-      <div class="header__cloumn">
+      <div class="header__column">
 
       </div>
-      <div class="header__cloumn">
+      <div class="header__column">
         <i class="fas fa-user fa-lg"></i>
       </div>
     </div>
   </header>
   <main class="profile">
     <header class="profile__header">
-      <img src="images/profile_jjong.png" alt="">
-      <h3 class="profile__header-title">JONGHYUN</h3>
-      <input type="text" placeholder="shinee.jonghyun@gmail.com">
-      <div class="profile__actions">
-        <div class="profile__action">
-          <span class="profile__action-circle">
-            <i class="fa fa-comment"></i>
-          </span>
-          <span class="profile__action-title">My Chatroom</span>
-        </div>
-        <div class="profile__action">
-          <span class="profile__action-circle">
-            <i class="fa fa-pencil-alt"></i>
-          </span>
-          <span class="profile__action-title">Edit Profile</span>
-        </div>
+      <div class="profile__header-container">
+        <img src="images/img_8.jpg" alt="">
+        <h3 class="profile__header-title">김댕댕</h3>
       </div>
     </header>
+      <div class="profile__container">
+        <input type="text" placeholder="shinee.jonghyun@gmail.com">
+        <div class="profile__actions">
+          <div class="profile__action">
+            <span class="profile__action-circle">
+              <i class="fa fa-comment"></i>
+            </span>
+            <span class="profile__action-title">나의 채팅방</span>
+          </div>
+          <div class="profile__action">
+            <span class="profile__action-circle">
+              <i class="fa fa-pencil-alt"></i>
+            </span>
+            <span class="profile__action-title">프로필 설정</span>
+          </div>
+        </div>
+      </div>
+
   </main>
 </body>
 </html>
