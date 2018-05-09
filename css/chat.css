@@ -53,10 +53,11 @@
 }
 
 .chat__message-body {
-  padding: 10px 5px;
+  padding: 10px 10px;
   border-radius: 5px;
   background-color: white;
   margin-right: 5px;
+  font-size: 13px;
 }
 
 .chat__message-center {
@@ -89,7 +90,7 @@
   padding-right: 5px;
 }
 
-.type-message .fa-plus {
+.type-message .fa-plus-square {
   color: #b4b4b4;
 }
 
@@ -103,21 +104,29 @@
 .type-message input {
   width: 100%;
   padding: 10px;
+  border-radius: 30px;
+  border: none;
+  border: 1px solid #ebebeb;
 }
 
 .type-message__input .fa-smile {
   position: absolute;
-  right: 44px;
+  right: 40px;
   color: #b4b4b4;
 }
-
+.type-message__input .fa-hashtag {
+  position: absolute;
+  right: 12px;
+  color: #b4b4b4;
+}
+/*
 .type-message__input .record-message {
   color: #523737;
   background-color: #ffe934;
   padding: 9px 11px 9px 11px;
   font-size: 18px;
 }
-
+*/
 .header__bottom .fa-search {
   padding-right: 5px;
 }
